@@ -1,3 +1,3 @@
 <div>
-    <!-- Well begun is half done. - Aristotle -->
+    <x-social-icons></x-social-icons>
 </div>

@@ -11,14 +11,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
-    <!-- ====== Navbar Section Start -->
-    <x-layout.navbar></x-layout.navbar>
-    <!-- ====== Navbar Section End -->
+<body class="antialiased text-gray-800 dark:text-gray-200">
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+        <x-layout.navbar></x-layout.navbar>
 
-    {{ $slot }}
+        {{ $slot }}
 
-    <footer>Footer</footer>
+        <x-layout.footer></x-layout.footer>
+    </div>
 </body>
 
 </html>
