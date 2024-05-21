@@ -11,7 +11,7 @@
                         I am a <span class="rounded-md text-amber-600">Software Developer</span>.
                     </h1>
                     <p class="text-base mb-8 max-w-[520px]">
-                        I am <a href="https://github.com/hugosuarezjr" target="_blank"
+                        I'm a <a href="https://github.com/hugosuarezjr" target="_blank"
                             class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary">Software
                             Developer</a> with professional experience in both Front-end and Back-end development.
                         <br />
@@ -21,7 +21,7 @@
                     </p>
                     <ul class="flex flex-wrap items-center">
                         <li>
-                            <x-button-link class="rounded-lg" href="#portfolio" variant="primary">
+                            <x-button-link href="#portfolio" variant="primary" class="rounded-lg">
                                 My Projects
                             </x-button-link>
                         </li>
@@ -35,10 +35,11 @@
                     </div>
                 </div>
             </div>
-            <div class="hidden lg:block lg:w-1/2 px-4"></div>
+            <div class="hidden lg:block lg:w-1/12 px-4"></div>
             <div class="w-full lg:w-6/12 px-4">
                 <div class="lg:text-right lg:ml-auto">
-                    <img src="{{ url('/img/me_hero.png') }}" alt="hero" class="max-w-full lg:ml-auto" />
+                    <img src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png" alt="hero" class="max-w-full lg:ml-auto" />
+                    {{-- <img src="{{ url('/img/me_hero.png') }}" alt="hero" class="max-w-full lg:ml-auto" /> --}}
                 </div>
                 <span class="absolute -left-8 -bottom-8 z-[-1]">
                     <svg width="93" height="93" viewBox="0 0 93 93" fill="none"
