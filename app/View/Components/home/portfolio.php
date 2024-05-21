@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components\Home;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class portfolio extends Component
+class Portfolio extends Component
 {
     /**
      * Create a new component instance.
