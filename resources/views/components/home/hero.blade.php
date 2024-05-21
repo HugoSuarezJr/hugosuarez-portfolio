@@ -39,9 +39,9 @@
             <div class="w-full lg:w-6/12 px-4">
                 <div class="lg:text-right lg:ml-auto">
                     <div class="relative z-10 inline-block pt-11 lg:pt-0">
-                        <img src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
-                            alt="hero" class="max-w-full lg:ml-auto" />
-                        {{-- <img src="{{ url('/img/me_hero.png') }}" alt="hero" class="max-w-full lg:ml-auto" /> --}}
+                        {{-- <img src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
+                            alt="hero" class="max-w-full lg:ml-auto" /> --}}
+                        <img src="{{ url('/img/me_hero.png') }}" alt="hero" class="max-w-full lg:ml-auto rounded-xl rounded-tl-[100px] sm:rounded-tl-[200px] " />
                         <span class="absolute -left-8 -bottom-8 z-[-1]">
                             <svg width="93" height="93" viewBox="0 0 93 93" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
