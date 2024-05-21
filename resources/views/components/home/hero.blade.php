@@ -15,7 +15,7 @@
                             class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary">Software
                             Developer</a> with professional experience in both Front-end and Back-end development.
                         <br />
-                        I'm also a Musician, Athlete, and a <a href="https://www.jw.org/" target="_blank"
+                        I'm also a Musician, Athlete, Favorite Uncle, and a <a href="https://www.jw.org/" target="_blank"
                             class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary">God-fearing</a>
                         man at heart.
                     </p>
