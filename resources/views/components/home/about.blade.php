@@ -34,7 +34,7 @@
                             come to love the software world by seeing the endless possibilities it has.<br />
                         </p>
                         <p class="text-base dark:text-gray-400 mb-8">
-                            Collaborating in a team and working with others is something enjoy and thrive on.<br />
+                            Collaborating in a team and working with others is something I enjoy and thrive on.<br />
                             The main focus of technologies I have worked with for projects and different companies are
                             <span class="text-amber-500 font-bold">Laravel, PHP, Javascript, Vue, React, MySQL, and much
                                 more...</span><br />
