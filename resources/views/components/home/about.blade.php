@@ -22,9 +22,12 @@
             <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
                 <div class="mt-10 lg:mt-0">
                     <span class="font-semibold text-lg text-primary mb-2 block">
-                        <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500">
-                            "Enjoy learning and you will learn anything"
-                        </blockquote>
+                        <div class="flex">
+                            <a class="group text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500" href="https://www.jw.org/en/library/bible/nwt/books/proverbs/12/#v20012027" target="_blank">
+                                "Diligence is a man's precious treasure"
+                                <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                            </a>
+                        </div>
                         <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
                             About Me
                         </h2>

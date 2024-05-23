@@ -17,15 +17,17 @@ class Portfolio extends Component
     public function __construct()
     {
         $this->items = [
+            // [
+            //     'category' => ['Laravel', 'Tailwind CSS', 'Vue.js'],
+            //     'title' => 'Full Stack Team Management app with Laravel, Tailwind CSS, and Vue.js',
+            //     'image' => url('/img/team-management-app.png'),
+            //     'github' => 'https://github.com/HugoSuarezJr/team-management-app'
+            // ],
+
+            /** Finish creating this app */
             [
-                'category' => ['Laravel', 'Tailwind CSS', 'Vue.js'],
-                'title' => 'Full Stack Team Management app with Laravel, Tailwind CSS, and Vue.js',
-                'image' => url('/img/team-management-app.png'),
-                'github' => 'https://github.com/HugoSuarezJr/team-management-app'
-            ],
-            [
-                'category' => ['Laravel', 'Tailwind CSS', 'Vue.js', 'Inertia', 'Testing'],
-                'title' => 'Full Stack app with Laravel, Tailwind CSS, Vue, Inertia, and PEST for TDD',
+                'category' => ['Laravel', 'Tailwind CSS', 'Vue.js', 'Inertia', 'Testing', 'PHP'],
+                'title' => 'Full Stack app with Laravel, Tailwind CSS, Vue, Inertia, PEST',
                 'image' => url('/img/pingcrm-app.png'),
                 'github' => 'https://github.com/HugoSuarezJr/pingcrm'
             ],
@@ -35,15 +37,17 @@ class Portfolio extends Component
                 'image' => url('/img/in-stock-app.png'),
                 'github' => 'https://github.com/HugoSuarezJr/In-Stock-App'
             ],
-            [
-                'category' => ['Laravel', 'Tailwind CSS', 'PHP'],
-                'title' => 'Task and project manager using Laravel framework',
-                'image' => url('/img/birdboard-app.png'),
-                'github' => 'https://github.com/HugoSuarezJr/birdboard'
-            ],
+
+            /** Remake this app and make your own */
+            // [
+            //     'category' => ['Laravel', 'Tailwind CSS', 'PHP'],
+            //     'title' => 'Task and project manager using Laravel framework',
+            //     'image' => url('/img/birdboard-app.png'),
+            //     'github' => 'https://github.com/HugoSuarezJr/birdboard'
+            // ],
             [
                 'category' => ['Laravel', 'PHP', 'Tailwind CSS'],
-                'title' => 'Full Stack app with Laravel, PHP, Tailwind CSS',
+                'title' => 'Full Stack Blog with Laravel, PHP, Tailwind CSS',
                 'image' => url('/img/laravel-blog-app.png'),
                 'github' => 'https://github.com/HugoSuarezJr/Laravel-Blog'
             ],
