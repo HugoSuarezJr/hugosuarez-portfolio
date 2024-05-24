@@ -2,7 +2,7 @@
     selectedTab: 'all',
     activeClasses: 'bg-primary text-white',
     inactiveClasses: 'text-body-color hover:bg-primary hover:text-white'
-}" class="pt-20 lg:pt-12 lg:pb-[90px]">
+}" class="pt-20 lg:pt-12 lg:pb-[90px] dark:bg-slate-800">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full px-4">
