@@ -46,7 +46,7 @@
                         submitForm(event) {
                             this.successMessage = '';
                             this.errors = {};
-                                fetch(`/contact/submit`, {
+                                fetch('/contact/submit', {
                                     method: 'POST',
                                     headers: {
                                         'Content-Type': 'application/json',
