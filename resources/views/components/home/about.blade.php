@@ -5,15 +5,15 @@
                 <div class="flex items-center -mx-3 sm:-mx-4">
                     <div class="w-full xl:w-1/2 px-3 sm:-mx-4">
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/img/me1.png') }}" alt="aboutmeimage1" class="rounded-2xl w-full" />
+                            <img src="{{ url('/img/me1.png') }}" alt="aboutmeimage1" class="rounded-2xl w-full" loading="lazy"/>
                         </div>
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/img/me3.png') }}" alt="aboutmeimage3" class="rounded-2xl w-full" />
+                            <img src="{{ url('/img/me3.png') }}" alt="aboutmeimage3" class="rounded-2xl w-full" loading="lazy"/>
                         </div>
                     </div>
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="my-4 relative z-10">
-                            <img src="{{ url('/img/me2.png') }}" alt="aboutmeimage2" class="rounded-2xl w-full">
+                            <img src="{{ url('/img/me2.png') }}" alt="aboutmeimage2" class="rounded-2xl w-full" loading="lazy">
                             <x-about-dots></x-about-dots>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                                 more...</span><br />
                         </p>
                         <p class="text-base dark:text-gray-400 mb-8">
-                            I love to travel, make music, play sports, enjoy time with my family(especially my niece and
+                            I love to travel, make music, play sports, enjoy time with my family (especially my niece and
                             nephew),
                             and serve my God as one of <a href="https://www.jw.org/en/#article" target="_blank" class="hover:underline">Jehovah's Witnesses</a>.
                         </p>

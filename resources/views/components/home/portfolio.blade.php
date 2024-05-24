@@ -1,4 +1,4 @@
-<section id="portfolio" x-data="{
+<section id="projects" x-data="{
     selectedTab: 'all',
     activeClasses: 'bg-primary text-white',
     inactiveClasses: 'text-body-color hover:bg-primary hover:text-white'

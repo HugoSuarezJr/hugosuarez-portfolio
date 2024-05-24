@@ -1,3 +1,13 @@
-<div>
-    <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-</div>
+<input
+        {{ $attributes->class([
+            'border border-[f0f0f0] dark:border-dark-3
+                        dark:text-gray-300 dark:bg-slate-800
+                        text-body-color
+                        focus:border-primary dark:focus:border-primary
+                        w-full
+                        rounded
+                        py-3
+                        px-[14px]
+                        text-base
+                        outline-none',
+]) }} />
