@@ -4,7 +4,7 @@
     <div class="container">
         <div class="flex flex-wrap justify-between">
             <span class="inline-flex items-center text-xl mb-4 md:mb-0 w-full justify-center md:w-auto">
-                Lets connect on Social Media
+                Let's connect on Social Media
             </span>
             <div class="inline-flex justify-center w-full md:w-auto">
                 <x-social-icons class="mb-0"></x-social-icons>

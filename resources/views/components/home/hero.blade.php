@@ -28,7 +28,7 @@
                     </ul>
                     <div class="clinets pt-16">
                         <h6 class="font-normal text-xs flex items-center text-body-color dark:text-gray-300 mb-4">
-                            Connect with me on social media
+                            Let's connect!
                             <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
                         </h6>
                         <x-social-icons></x-social-icons>
