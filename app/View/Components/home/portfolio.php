@@ -27,7 +27,7 @@ class Portfolio extends Component
             /** Finish creating this app */
             [
                 'category' => ['Laravel', 'Tailwind CSS', 'Vue.js', 'Inertia', 'Testing', 'PHP'],
-                'title' => 'Full Stack app with Laravel, Tailwind CSS, Vue, Inertia, PEST',
+                'title' => 'Full Stack CRM with Laravel, Tailwind CSS, Vue, Inertia, PEST',
                 'image' => url('/img/pingcrm-app.png'),
                 'github' => 'https://github.com/HugoSuarezJr/pingcrm'
             ],

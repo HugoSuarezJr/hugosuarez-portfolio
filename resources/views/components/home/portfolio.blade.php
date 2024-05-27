@@ -20,32 +20,28 @@
             <div class="w-full px-4">
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                     <li class="mb-1">
-                        <button
-                            x-on:click="selectedTab = 'all'"
-                            :class="selectedTab == 'all' ? activeClasses: inactiveClasses"
-                            class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition"
-                        >
+                        <button x-on:click="selectedTab = 'all'"
+                            :class="selectedTab == 'all' ? activeClasses : inactiveClasses"
+                            class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition">
                             All Projects
                         </button>
                     </li>
-                    @foreach ($tabs as $tab)
-                        <button
-                            x-on:click="selectedTab = '{{$tab}}'"
-                            :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses"
-                            class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition"
-                        >
-                            {{$tab}}
-                        </button>
-                    @endforeach
+                    @if (!empty($tabs))
+                        @foreach ($tabs as $tab)
+                            <button x-on:click="selectedTab = '{{ $tab }}'"
+                                :class="selectedTab === '{{ $tab }}' ? activeClasses : inactiveClasses"
+                                class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition">
+                                {{ $tab }}
+                            </button>
+                        @endforeach
+                    @endif
+
                 </ul>
             </div>
         </div>
         <div class="flex flex-wrap -mx-4">
             @foreach ($items as $item)
-                <x-portfolio-item
-                    :title="$item['title']"
-                    :categories="$item['category']"
-                    :image="$item['image']"
+                <x-portfolio-item :title="$item['title']" :categories="$item['category']" :image="$item['image']"
                     :github="$item['github']"></x-portfolio-item>
             @endforeach
         </div>
