@@ -8,6 +8,7 @@
     <title>Hugo Suárez</title>
 
     <meta name="csrf-token" content="{{csrf_token()}}">
+    <x-favicon></x-favicon>
 
     {{-- Alpine & Tailwind CSS --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
