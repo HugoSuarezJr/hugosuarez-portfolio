@@ -29,6 +29,7 @@
                     </nav>
                 </div>
             </div>
+            {{-- Create a darkmode/lightmode button --}}
         </div>
     </div>
 </header>
