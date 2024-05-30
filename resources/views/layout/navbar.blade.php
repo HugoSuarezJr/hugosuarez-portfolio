@@ -30,6 +30,7 @@
                 </div>
             </div>
             {{-- Create a darkmode/lightmode button --}}
+            {{-- Make sure it is toggleable --}}
         </div>
     </div>
 </header>
