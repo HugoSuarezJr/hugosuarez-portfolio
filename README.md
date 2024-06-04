@@ -36,8 +36,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/username/portfolio.git
-    cd portfolio
+    git clone https://github.com/HugoSuarezJr/hugosuarez-portfolio.git
+    cd hugosuarez-portfolio
     ```
 
 2. **Install dependencies:**
@@ -78,8 +78,8 @@ To set up the project using Docker, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/username/portfolio.git
-    cd portfolio
+    git clone https://github.com/HugoSuarezJr/hugosuarez-portfolio.git
+    cd hugosuarez-portfolio
     ```
 
 2. **Copy the `.env.example` file to `.env` and set your environment variables:**
