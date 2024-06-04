@@ -1,66 +1,149 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Hugo Suárez Portfolio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Welcome to the repository for [Hugo Suárez's Portfolio](https://hugosuarez.com), a personal website I built using the Laravel Framework.
 
-## My Portfolio built on Laravel Framework
+## Table of Contents
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [Hugo Suárez Portfolio](#hugo-suárez-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Local Installation](#local-installation)
+    - [Docker Installation](#docker-installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Introduction
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This is the source code for my personal portfolio website. The site is built using the Laravel Framework and showcases my work, skills, and projects. You can visit the live site at [hugosuarez.com](https://hugosuarez.com).
 
-## Learning Laravel
+## Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Responsive Design**: The website is fully responsive and works on all devices.
+- **Project Showcase**: Display of personal and professional projects with descriptions and links.
+- **Contact Form**: A functional contact form to get in touch with me directly.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Installation
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+You can set up the project locally or using Docker.
 
-## Laravel Sponsors
+### Local Installation
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+To set up the project locally, follow these steps:
 
-### Premium Partners
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/username/portfolio.git
+    cd portfolio
+    ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. **Install dependencies:**
+    ```bash
+    composer install
+    npm install
+    npm run dev
+    ```
+
+3. **Copy the `.env.example` file to `.env` and set your environment variables:**
+    ```bash
+    cp .env.example .env
+    ```
+
+4. **Generate the application key:**
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Set up the database:**
+    - Create a new MySQL database.
+    - Update the `.env` file with your database credentials.
+    - Run the migrations:
+      ```bash
+      php artisan migrate
+      ```
+
+6. **Serve the application:**
+    ```bash
+    php artisan serve
+    ```
+
+Your application should now be running on [http://localhost:8000](http://localhost:8000).
+
+### Docker Installation
+
+To set up the project using Docker, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/username/portfolio.git
+    cd portfolio
+    ```
+
+2. **Copy the `.env.example` file to `.env` and set your environment variables:**
+    ```bash
+    cp .env.example .env
+    ```
+
+3. **Build and start the Docker containers:**
+    ```bash
+    docker-compose up -d
+    ```
+
+4. **Install dependencies inside the Docker container:**
+    ```bash
+    docker-compose exec app composer install
+    docker-compose exec app npm install
+    docker-compose exec app npm run dev
+    ```
+
+5. **Generate the application key:**
+    ```bash
+    docker-compose exec app php artisan key:generate
+    ```
+
+6. **Run the migrations:**
+    ```bash
+    docker-compose exec app php artisan migrate
+    ```
+
+Your application should now be running on [http://localhost:8000](http://localhost:8000).
+
+## Usage
+
+You can navigate through the website to view my projects, learn more about me, and use the contact form to reach out. The website includes the following sections:
+
+- **Home**: An introduction and overview of who I am.
+- **Projects**: A showcase of my work, including personal and professional projects.
+- **About**: More detailed information about my background, skills, and experience.
+- **Contact**: A form to send me messages directly.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+If you wish to contribute to this project, please follow these steps:
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Open a pull request.
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Contact
+
+If you have any questions, feel free to reach out:
+
+- Website: [hugosuarez.com](https://hugosuarez.com)
+- Email: husuarezjr@gmail.com
+- LinkedIn: [Hugo Suárez](https://www.linkedin.com/in/hugosuarezjr)
+
+---
+
+Thank you for visiting my portfolio!
+
