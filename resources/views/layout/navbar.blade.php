@@ -25,7 +25,7 @@
                             @foreach ($navigationItems as $item)
                                 <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
                             @endforeach
-                            <x-toggle-dark-mode></x-toggle-dark-mode>
+                            {{-- <x-toggle-dark-mode></x-toggle-dark-mode> --}}
                         </ul>
                     </nav>
                 </div>

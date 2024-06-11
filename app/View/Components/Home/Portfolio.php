@@ -23,6 +23,12 @@ class Portfolio extends Component
             //     'image' => url('/img/team-management-app.png'),
             //     'github' => 'https://github.com/HugoSuarezJr/team-management-app'
             // ],
+            [
+                'category' => ['Javascript'],
+                'title' => 'Fun JavaScript Game with HTML Canvas',
+                'image' => url('/img/cure-quest-app.png'),
+                'github' => 'https://github.com/HugoSuarezJr/CureDemo'
+            ],
 
             /** Finish creating this app */
             [
@@ -50,12 +56,6 @@ class Portfolio extends Component
                 'title' => 'Full Stack Blog with Laravel, PHP, Tailwind CSS',
                 'image' => url('/img/laravel-blog-app.png'),
                 'github' => 'https://github.com/HugoSuarezJr/Laravel-Blog'
-            ],
-            [
-                'category' => ['Javascript'],
-                'title' => 'Fun JavaScript Game with HTML Canvas',
-                'image' => url('/img/cure-quest-app.png'),
-                'github' => 'https://github.com/HugoSuarezJr/CureDemo'
             ]
 
         ];
