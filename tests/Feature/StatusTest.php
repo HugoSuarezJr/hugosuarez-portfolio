@@ -37,4 +37,11 @@ class StatusTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_random_page_returns_404_response(): void
+    {
+        $response = $this->get('/no-page');
+
+        $response->assertStatus(404);
+    }
 }
