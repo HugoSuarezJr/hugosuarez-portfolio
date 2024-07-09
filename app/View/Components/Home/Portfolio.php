@@ -17,6 +17,12 @@ class Portfolio extends Component
     public function __construct()
     {
         $this->items = [
+            [
+                'category' => ['Laravel', 'Tailwind CSS', 'React', 'Inertia'],
+                'title' => 'Full Stack Clinical Trial App w/ React, Inertia, Laravel',
+                'image' => url('/img/medical-trials-app.png'),
+                'github' => 'https://medicaltrials.hugosuarez.com/'
+            ],
             // [
             //     'category' => ['Laravel', 'Tailwind CSS', 'Vue.js'],
             //     'title' => 'Full Stack Team Management app with Laravel, Tailwind CSS, and Vue.js',
