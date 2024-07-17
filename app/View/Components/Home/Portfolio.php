@@ -18,8 +18,8 @@ class Portfolio extends Component
     {
         $this->items = [
             [
-                'category' => ['Laravel', 'Tailwind CSS', 'React', 'Inertia'],
-                'title' => 'Full Stack Clinical Trial App w/ React, Inertia, Laravel',
+                'category' => ['Laravel', 'Tailwind CSS', 'React', 'Inertia', 'Testing'],
+                'title' => 'Full Stack Clinical Trial App w/ React, Inertia, Laravel, PHPUnit',
                 'image' => url('/img/medical-trials-app.png'),
                 'github' => 'https://medicaltrials.hugosuarez.com/'
             ],
