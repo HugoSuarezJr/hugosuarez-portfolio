@@ -23,6 +23,12 @@ class Portfolio extends Component
                 'image' => url('/img/medical-trials-app.png'),
                 'github' => 'https://medicaltrials.hugosuarez.com/'
             ],
+            [
+                'category' => ['Laravel', 'Tailwind CSS', 'Alpine.js', 'Docker'],
+                'title' => 'My Portfolio Site!',
+                'image' => url('/img/portfolio-site.png'),
+                'github' => 'https://github.com/HugoSuarezJr/hugosuarez-portfolio'
+            ],
             // [
             //     'category' => ['Laravel', 'Tailwind CSS', 'Vue.js'],
             //     'title' => 'Full Stack Team Management app with Laravel, Tailwind CSS, and Vue.js',
