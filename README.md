@@ -1,3 +1,6 @@
+## Application currently under maintenance 🚧
+<br/>
+
 # Hugo Suárez Portfolio
 
 Welcome to the repository for [Hugo Suárez's Portfolio](https://hugosuarez.com), a personal website I built using the Laravel Framework.
