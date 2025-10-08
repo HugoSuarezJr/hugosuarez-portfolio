@@ -18,7 +18,7 @@ class Navbar extends Component
             ['label' => 'About', 'href' => '#about'],
             ['label' => 'Projects', 'href' => '#projects'],
             // ['label' => 'Coding Tutorials', 'href' => '#tutorials'],
-            ['label' => 'Contact', 'href' => '#contact']
+            // ['label' => 'Contact', 'href' => '#contact']
         ];
     }
 
