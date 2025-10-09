@@ -1,6 +1,6 @@
 {{-- Footer Section Start --}}
 
-<footer class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10">
+<footer class="bg-gray-200 dark:bg-slate-800 py-8 relative z-10" id="contact">
     <div class="container">
         <div class="flex flex-wrap justify-between">
             <span class="inline-flex items-center text-xl mb-4 md:mb-0 w-full justify-center md:w-auto">
