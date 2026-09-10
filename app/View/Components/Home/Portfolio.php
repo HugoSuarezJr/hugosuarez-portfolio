@@ -20,13 +20,13 @@ class Portfolio extends Component
             [
                 'category' => ['Laravel', 'Tailwind CSS', 'React', 'Inertia', 'Testing'],
                 'title' => 'Full Stack Clinical Trial App w/ React, Inertia, Laravel, PHPUnit',
-                'image' => url('/img/medical-trials-app.png'),
+                'image' => url('/img/medical-trials-app.webp'),
                 'github' => 'https://medicaltrials.hugosuarez.com/'
             ],
             [
                 'category' => ['Laravel', 'Tailwind CSS', 'Alpine.js', 'Docker'],
                 'title' => 'My Portfolio Site!',
-                'image' => url('/img/portfolio-site.png'),
+                'image' => url('/img/portfolio-site.webp'),
                 'github' => 'https://github.com/HugoSuarezJr/hugosuarez-portfolio'
             ],
             // [
@@ -38,7 +38,7 @@ class Portfolio extends Component
             [
                 'category' => ['Javascript'],
                 'title' => 'Fun JavaScript Game with HTML Canvas',
-                'image' => url('/img/cure-quest-app.png'),
+                'image' => url('/img/cure-quest-app.webp'),
                 'github' => 'https://github.com/HugoSuarezJr/CureDemo'
             ],
 
@@ -46,13 +46,13 @@ class Portfolio extends Component
             [
                 'category' => ['Laravel', 'Tailwind CSS', 'Vue.js', 'Inertia', 'Testing', 'PHP'],
                 'title' => 'Full Stack CRM with Laravel, Tailwind CSS, Vue, Inertia, PEST',
-                'image' => url('/img/pingcrm-app.png'),
+                'image' => url('/img/pingcrm-app.webp'),
                 'github' => 'https://github.com/HugoSuarezJr/pingcrm'
             ],
             [
                 'category' => ['Laravel', 'PHP'],
                 'title' => 'Product Stock tracker app built on Laravel and PHP Blade',
-                'image' => url('/img/in-stock-app.png'),
+                'image' => url('/img/in-stock-app.webp'),
                 'github' => 'https://github.com/HugoSuarezJr/In-Stock-App'
             ],
 
@@ -66,7 +66,7 @@ class Portfolio extends Component
             [
                 'category' => ['Laravel', 'PHP', 'Tailwind CSS'],
                 'title' => 'Full Stack Blog with Laravel, PHP, Tailwind CSS',
-                'image' => url('/img/laravel-blog-app.png'),
+                'image' => url('/img/laravel-blog-app.webp'),
                 'github' => 'https://github.com/HugoSuarezJr/Laravel-Blog'
             ]
 

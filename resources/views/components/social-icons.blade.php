@@ -1,6 +1,6 @@
 <div {{ $attributes->class(['flex items-center'])}}>
     {{-- Github --}}
-    <a href="https://github.com/hugosuarezjr" target="_blank"
+    <a href="https://github.com/hugosuarezjr" target="_blank" rel="noopener noreferrer" aria-label="Hugo Suárez on GitHub"
     class="flex items-center justify-center w-10 h-10 mr-3 border-2 border-dark rounded-full text-dark hover:border-primary hover:bg-primary dark:border-white dark:hover:border-primary dark:text-white hover:text-white transition-all duration-300 sm:mr-4 lg:mr-3 xl:mr-4">
         <svg width="21" height="21" viewBox="0 0 100 100" class="fill-current">
             <path
@@ -9,7 +9,7 @@
     </a>
 
     {{-- LinkedIn --}}
-    <a href="https://www.linkedin.com/in/hugosuarezjr/" target="_blank"
+    <a href="https://www.linkedin.com/in/hugosuarezjr/" target="_blank" rel="noopener noreferrer" aria-label="Hugo Suárez on LinkedIn"
         class="flex items-center justify-center w-10 h-10 mr-3 border-2 border-dark rounded-full text-dark hover:border-primary hover:bg-primary dark:border-white dark:hover:border-primary dark:text-white hover:text-white transition-all duration-300 sm:mr-4 lg:mr-3 xl:mr-4">
         <svg width="16" height="16" viewBox="0 0 14 14" class="fill-current">
             <path

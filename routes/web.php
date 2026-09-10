@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::post('/contact/submit', [ContactController::class, 'submit']);
+Route::post('/contact/submit', [ContactController::class, 'submit'])->middleware('throttle:5,1');

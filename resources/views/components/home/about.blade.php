@@ -5,15 +5,15 @@
                 <div class="flex items-center -mx-3 sm:-mx-4">
                     <div class="w-full xl:w-1/2 px-3 sm:-mx-4">
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/img/me1.png') }}" alt="aboutmeimage1" class="rounded-2xl w-full" loading="lazy"/>
+                            <img src="{{ url('/img/me1.webp') }}" alt="Hugo Suárez outdoors" width="768" height="1024" class="rounded-2xl w-full" loading="lazy" decoding="async"/>
                         </div>
                         <div class="py-3 sm:py-4">
-                            <img src="{{ url('/img/me3.png') }}" alt="aboutmeimage3" class="rounded-2xl w-full" loading="lazy"/>
+                            <img src="{{ url('/img/me3.webp') }}" alt="Hugo Suárez performing music" width="683" height="1024" class="rounded-2xl w-full" loading="lazy" decoding="async"/>
                         </div>
                     </div>
                     <div class="w-full xl:w-1/2 px-3 sm:px-4">
                         <div class="my-4 relative z-10">
-                            <img src="{{ url('/img/me2.png') }}" alt="aboutmeimage2" class="rounded-2xl w-full" loading="lazy">
+                            <img src="{{ url('/img/me2.webp') }}" alt="Hugo Suárez with family" width="768" height="1024" class="rounded-2xl w-full" loading="lazy" decoding="async">
                             <x-about-dots></x-about-dots>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                 <div class="mt-10 lg:mt-0">
                     <span class="font-semibold text-lg text-primary mb-2 block">
                         <div class="flex">
-                            <a class="group text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500" href="https://www.jw.org/en/library/bible/nwt/books/proverbs/12/#v20012027" target="_blank">
+                            <a class="group text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500" href="https://www.jw.org/en/library/bible/nwt/books/proverbs/12/#v20012027" target="_blank" rel="noopener noreferrer">
                                 "Diligence is a man's precious treasure"
                                 <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                             </a>
@@ -45,9 +45,9 @@
                         <p class="text-base dark:text-gray-400 mb-8">
                             I love to travel, make music, play sports, enjoy time with my family (especially my niece and
                             nephew),
-                            and serve my God as one of <a href="https://www.jw.org/en/#article" target="_blank" class="hover:underline">Jehovah's Witnesses</a>.
+                            and serve my God as one of <a href="https://www.jw.org/en/#article" target="_blank" rel="noopener noreferrer" class="hover:underline">Jehovah's Witnesses</a>.
                         </p>
-                        <x-button-link href="https://github.com/hugosuarezjr" target="_blank">
+                        <x-button-link href="https://github.com/hugosuarezjr" target="_blank" rel="noopener noreferrer">
                             View my Github
                         </x-button-link>
                     </span>

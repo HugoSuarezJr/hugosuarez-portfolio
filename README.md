@@ -1,9 +1,8 @@
-## Application currently under maintenance 🚧
-<br/>
-
 # Hugo Suárez Portfolio
 
 Welcome to the repository for [Hugo Suárez's Portfolio](https://hugosuarez.com), a personal website I built using the Laravel Framework.
+
+The production site is exported as static HTML and deployed free through GitHub Pages. See the [deployment and Hostinger migration guide](DEPLOYMENT.md).
 
 ## Table of Contents
 
@@ -149,4 +148,3 @@ If you have any questions, feel free to reach out:
 ---
 
 Thank you for visiting my portfolio!
-

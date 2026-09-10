@@ -11,9 +11,9 @@ class ContactController extends Controller
     public function submit(Request $request)
     {
         $validated = $request->validate([
-            'name' => 'required',
-            'email' => ['required', 'email'],
-            'message' => 'required',
+            'name' => ['required', 'string', 'max:100'],
+            'email' => ['required', 'email:rfc', 'max:254'],
+            'message' => ['required', 'string', 'max:5000'],
         ]);
 
         Mail::to('husuarezjr@gmail.com')

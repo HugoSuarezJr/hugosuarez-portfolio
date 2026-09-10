@@ -1,0 +1,50 @@
+name: Deploy portfolio to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          coverage: none
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          cache: npm
+      - run: composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
+      - run: npm ci
+      - name: Prepare Laravel build environment
+        run: cp .env.example .env && php artisan key:generate
+      - run: npm run build
+      - name: Export Laravel view as a static site
+        env:
+          APP_ENV: production
+          APP_DEBUG: false
+          APP_URL: https://hugosuarez.com
+        run: php scripts/export-static.php
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

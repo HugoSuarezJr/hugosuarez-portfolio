@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hugo Suárez</title>
+    <title>Hugo Suárez — Software Developer</title>
+    <meta name="description" content="Portfolio of Hugo Suárez, a full-stack software developer specializing in Laravel, PHP, JavaScript, Vue, React, and MySQL.">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
 
     <meta name="csrf-token" content="{{csrf_token()}}">
     <x-favicon></x-favicon>
@@ -22,12 +24,6 @@
 
         <x-layout.footer></x-layout.footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        $(document).ready(function (){
-            $('img').lazyload();
-        });
-    </script>
 </body>
 
 </html>
