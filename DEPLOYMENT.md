@@ -8,7 +8,7 @@ This repository now includes an automated deployment workflow. Every push to `ma
 
 ## 1. Verify the site locally
 
-Install PHP 8.2+, Composer, and Node.js 20+, then run:
+Install PHP 8.4.1+, Composer, and Node.js 20+, then run:
 
 ```bash
 composer install
