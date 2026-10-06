@@ -13,7 +13,15 @@ require __DIR__.'/../vendor/autoload.php';
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
 $kernel = $app->make(Kernel::class);
-$request = Request::create('/', 'GET');
+$kernel->bootstrap();
+
+// Static exports must use built assets even when a local Vite server is running.
+$app->make(\Illuminate\Foundation\Vite::class)->useHotFile('');
+
+// Laravel's asset URLs follow the request host, even when APP_URL is set.
+// Use the deployment URL so the export never inherits a localhost request.
+$siteUrl = rtrim((string) $app['config']->get('app.url'), '/');
+$request = Request::create($siteUrl.'/', 'GET');
 $response = $kernel->handle($request);
 
 if ($response->getStatusCode() !== 200) {
